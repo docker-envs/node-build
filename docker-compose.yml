@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  mynode:
+    build: .
+    image: mynode
+    environment:
+      - NODE_VERSION=10.14.1
+
